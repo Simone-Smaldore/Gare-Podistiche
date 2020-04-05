@@ -6,7 +6,7 @@
     
     <session-factory>    
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.url">jdbc:postgresql:gestoreGare</property>
+        <property name="hibernate.connection.url">jdbc:postgresql:gestoregare</property>
         <property name="hibernate.connection.username">pguser</property>
         <property name="hibernate.connection.password">pguser</property>
         
