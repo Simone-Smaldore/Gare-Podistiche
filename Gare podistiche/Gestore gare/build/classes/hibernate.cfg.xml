@@ -6,7 +6,7 @@
     
     <session-factory>    
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.url">jdbc:postgresql:NOME_PROGETTO</property>
+        <property name="hibernate.connection.url">jdbc:postgresql:gestoreGare</property>
         <property name="hibernate.connection.username">pguser</property>
         <property name="hibernate.connection.password">pguser</property>
         
@@ -27,7 +27,11 @@
         <!-- <property name="hbm2ddl.auto">create</property> -->
 
         <!-- mapping -->
-        <mapping class="it.unibas.NOME_PROGETTO.modello.Utente" />
+        <mapping class="it.unibas.gestoreGare.modello.Gara" />
+        <mapping class="it.unibas.gestoreGare.modello.Atleta" />
+        <mapping class="it.unibas.gestoreGare.modello.Arrivo" />
+        <mapping class="it.unibas.gestoreGare.modello.Sponsor" />
+
 
     </session-factory>
     

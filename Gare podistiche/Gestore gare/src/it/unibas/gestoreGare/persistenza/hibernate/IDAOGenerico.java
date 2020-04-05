@@ -1,4 +1,4 @@
-package it.unibas.persistenza;
+package it.unibas.gestoreGare.persistenza.hibernate;
 
 import java.util.List;
 
