@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project basedir="." default="build" name="gestoreGare">
+<project basedir="." default="build" name="gestoregare">
  
  <!-- ***************************************************
             Importazione del template
