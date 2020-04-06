@@ -10,7 +10,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-public class Arrivo {
+public class Arrivo implements Comparable{
 
     private long id;
     private Calendar orarioArrivo;
@@ -54,4 +54,15 @@ public class Arrivo {
         this.gara = gara;
     }
 
+    @Override
+    public int compareTo(Object o) {
+        Arrivo nuovo = (Arrivo)o;
+        if(this.getOrarioArrivo().get(Calendar.HOUR_OF_DAY) == nuovo.getOrarioArrivo().get(Calendar.HOUR_OF_DAY)) {
+            return this.getOrarioArrivo().get(Calendar.MINUTE) - nuovo.getOrarioArrivo().get(Calendar.MINUTE);
+        }
+        return this.getOrarioArrivo().get(Calendar.HOUR_OF_DAY) - nuovo.getOrarioArrivo().get(Calendar.HOUR_OF_DAY);
+    }
+
+    
+    
 }

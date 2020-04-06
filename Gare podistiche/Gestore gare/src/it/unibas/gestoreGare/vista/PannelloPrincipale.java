@@ -22,6 +22,7 @@ public class PannelloPrincipale extends javax.swing.JPanel {
     public void initActions() {
         this.jTextFieldKm.setAction(Applicazione.getInstance().getControlloPannelloPrincipale().getAzioneCerca());
         this.jButtonCerca.setAction(Applicazione.getInstance().getControlloPannelloPrincipale().getAzioneCerca());
+        this.jButtonMostraDettagli.setAction(Applicazione.getInstance().getControlloPannelloPrincipale().getAzioneApriFinestradettagli());
     }
     
     public void initTable() {
@@ -37,6 +38,10 @@ public class PannelloPrincipale extends javax.swing.JPanel {
     
     public String getValoreKm() {
         return this.jTextFieldKm.getText();
+    }
+    
+    public int getGaraSelezionata() {
+        return this.jTableGare.getSelectedRow();
     }
 
 

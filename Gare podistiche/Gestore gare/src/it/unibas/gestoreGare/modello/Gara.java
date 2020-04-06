@@ -74,5 +74,9 @@ public class Gara {
     public void setArrivi(List<Arrivo> arrivi) {
         this.arrivi = arrivi;
     }
+    
+    public void addRisultato(Arrivo arrivo) {
+        this.arrivi.add(arrivo);
+    }
 
 }

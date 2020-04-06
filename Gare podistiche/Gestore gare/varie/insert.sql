@@ -3,6 +3,7 @@ begin transaction;
 insert into Atleta(id, citta, nome, cognome) values(1, 'Potenza', 'Simone', 'Smaldore');
 insert into Atleta(id, citta, nome, cognome) values(2, 'Giamaica', 'Usain', 'Bolt');
 insert into Atleta(id, citta, nome, cognome) values(3, 'Parigi', 'Charles', 'Leclerc');
+insert into Atleta(id, citta, nome, cognome) values(4, 'Roma', 'Mario', 'Rossi');
 
 insert into Gara(id, codice, dataGara, descrizione, km) values(1, '20km', '2020-03-27 15:00:00', 'gara sui 20 chilometri', 20.0);
 insert into Gara(id, codice, dataGara, descrizione, km) values(2, '10km', '2020-07-2 16:30:00', 'gara sui 10 chilometri', 10.0);

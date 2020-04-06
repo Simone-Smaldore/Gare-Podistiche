@@ -71,4 +71,10 @@ public class Atleta {
         this.sponsorizzazioni = sponsorizzazioni;
     }
 
+    @Override
+    public String toString() {
+        return  nome +  " " + cognome ;
+    }
+
+    
 }

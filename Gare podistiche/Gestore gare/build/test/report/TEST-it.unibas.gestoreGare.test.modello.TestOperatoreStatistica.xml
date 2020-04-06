@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="DESKTOP-7T7IURO" name="it.unibas.gestoreGare.test.modello.TestOperatoreStatistica" skipped="0" tests="1" time="0.111" timestamp="2020-04-06T08:10:40">
+<testsuite errors="0" failures="0" hostname="DESKTOP-7T7IURO" name="it.unibas.gestoreGare.test.modello.TestOperatoreStatistica" skipped="0" tests="1" time="0.156" timestamp="2020-04-06T10:05:37">
   <properties>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="java.specification.version" value="11" />
@@ -10,34 +10,36 @@
     <property name="ant.file.swing-template-build" value="C:\Users\simon\Desktop\Gare\Gare podistiche\swing-template-build.xml" />
     <property name="sun.arch.data.model" value="64" />
     <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
+    <property name="run.classpath.property" value="c:/lib/postgresql-42.2.9.jar;c:/lib/c3p0-0.9.1.1.jar;c:/lib/hibernate-4.1/antlr-2.7.7.jar;c:/lib/hibernate-4.1/dom4j-1.6.1.jar;c:/lib/hibernate-4.1/hibernate-c3p0-4.1.7.Final.jar;c:/lib/hibernate-4.1/hibernate-commons-annotations-4.0.1.Final.jar;c:/lib/hibernate-4.1/hibernate-core-4.1.7.Final.jar;c:/lib/hibernate-4.1/hibernate-jpa-2.0-api-1.0.1.Final.jar;c:/lib/hibernate-4.1/javassist-3.15.0-GA.jar;c:/lib/hibernate-4.1/jboss-logging-3.1.0.GA.jar;c:/lib/hibernate-4.1/jboss-transaction-api_1.1_spec-1.0.0.Final.jar;c:/lib/hibernate-annotations-4.1/hibernate-commons-annotations-4.0.1.Final.jar;c:/lib/slf4j-api-1.7.7.jar;C:/Users/simon/Desktop/Gare/Gare podistiche/Gestore gare/build/classes;c:/lib/logback-classic-1.1.2.jar;c:/lib/logback-core-1.1.2.jar" />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="resources.dir" value="C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\varie\risorse" />
     <property name="nb.useSwingHtmlRendering" value="true" />
     <property name="test.data.dir.present" value="true" />
     <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
     <property name="sun.boot.library.path" value="C:\jdk-11.0.2\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner it.unibas.gestoreGare.test.modello.TestOperatoreStatistica skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\build\test\report\TEST-it.unibas.gestoreGare.test.modello.TestOperatoreStatistica.xml crashfile=C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\junitvmwatcher739092254621198734.properties propsfile=C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\junit957244366539875661.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner it.unibas.gestoreGare.test.modello.TestOperatoreStatistica skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\build\test\report\TEST-it.unibas.gestoreGare.test.modello.TestOperatoreStatistica.xml crashfile=C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\junitvmwatcher1700654751351016146.properties propsfile=C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\junit2443305120697063643.properties" />
     <property name="netbeans.autoupdate.version" value="1.23" />
     <property name="jdk.debug" value="release" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
     <property name="java.version.date" value="2019-01-15" />
     <property name="java.home" value="C:\jdk-11.0.2" />
     <property name="netbeans.user" value="C:\Users\simon\AppData\Roaming\NetBeans\11.1" />
-    <property name="file.separator" value="\" />
-    <property name="javadoc.dir" value="C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\dist\javadoc" />
     <property name="basedir" value="C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare" />
+    <property name="javadoc.dir" value="C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\dist\javadoc" />
+    <property name="file.separator" value="\" />
     <property name="java.vm.compressedOopsMode" value="32-bit" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="nbproject.dir" value="C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\nbproject" />
     <property name="java.specification.name" value="Java Platform API Specification" />
-    <property name="jna.boot.library.name" value="jnidispatch-440" />
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="jna.boot.library.name" value="jnidispatch-440" />
     <property name="netbeans.productversion" value="Apache NetBeans IDE 11.1" />
     <property name="build.optimize" value="off" />
     <property name="utilita.build.dir" value="C:\Users\simon\Desktop\Gare\Gare podistiche\utilita\build\classes" />
+    <property name="test.classpath.property" value="c:/lib/postgresql-42.2.9.jar;c:/lib/c3p0-0.9.1.1.jar;c:/lib/hibernate-4.1/antlr-2.7.7.jar;c:/lib/hibernate-4.1/dom4j-1.6.1.jar;c:/lib/hibernate-4.1/hibernate-c3p0-4.1.7.Final.jar;c:/lib/hibernate-4.1/hibernate-commons-annotations-4.0.1.Final.jar;c:/lib/hibernate-4.1/hibernate-core-4.1.7.Final.jar;c:/lib/hibernate-4.1/hibernate-jpa-2.0-api-1.0.1.Final.jar;c:/lib/hibernate-4.1/javassist-3.15.0-GA.jar;c:/lib/hibernate-4.1/jboss-logging-3.1.0.GA.jar;c:/lib/hibernate-4.1/jboss-transaction-api_1.1_spec-1.0.0.Final.jar;c:/lib/hibernate-annotations-4.1/hibernate-commons-annotations-4.0.1.Final.jar;c:/lib/slf4j-api-1.7.7.jar;C:/Users/simon/Desktop/Gare/Gare podistiche/Gestore gare/build/classes;c:/lib/logback-classic-1.1.2.jar;c:/lib/logback-core-1.1.2.jar;C:/Users/simon/Desktop/Gare/Gare podistiche/Gestore gare/build/test/classes;c:/lib/junit.jar" />
     <property name="netbeans.extbrowser.manual_chrome_plugin_install" value="yes" />
-    <property name="user.script" value="" />
     <property name="db.password" value="pguser" />
+    <property name="user.script" value="" />
     <property name="netbeans.default_userdir_root" value="C:\Users\simon\AppData\Roaming\NetBeans" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="jdk.home" value="C:\jdk-11.0.2" />
@@ -45,10 +47,12 @@
     <property name="user.name" value="Simone" />
     <property name="build.debuglevel" value="lines,vars,source" />
     <property name="hibernate-tools.ver" value="4.1" />
-    <property name="file.encoding" value="Cp1252" />
+    <property name="compile.classpath.property" value="c:/lib/postgresql-42.2.9.jar;c:/lib/c3p0-0.9.1.1.jar;c:/lib/hibernate-4.1/antlr-2.7.7.jar;c:/lib/hibernate-4.1/dom4j-1.6.1.jar;c:/lib/hibernate-4.1/hibernate-c3p0-4.1.7.Final.jar;c:/lib/hibernate-4.1/hibernate-commons-annotations-4.0.1.Final.jar;c:/lib/hibernate-4.1/hibernate-core-4.1.7.Final.jar;c:/lib/hibernate-4.1/hibernate-jpa-2.0-api-1.0.1.Final.jar;c:/lib/hibernate-4.1/javassist-3.15.0-GA.jar;c:/lib/hibernate-4.1/jboss-logging-3.1.0.GA.jar;c:/lib/hibernate-4.1/jboss-transaction-api_1.1_spec-1.0.0.Final.jar;c:/lib/hibernate-annotations-4.1/hibernate-commons-annotations-4.0.1.Final.jar;c:/lib/slf4j-api-1.7.7.jar;C:/Users/simon/Desktop/Gare/Gare podistiche/Gestore gare/build/classes" />
     <property name="sun.java2d.noddraw" value="true" />
+    <property name="file.encoding" value="Cp1252" />
     <property name="sun.zip.disableMemoryMapping" value="true" />
     <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="guice.disable.misplaced.annotation.check" value="true" />
     <property name="https.nonProxyHosts" value="localhost|127.0.0.1|DESKTOP-7T7IURO" />
     <property name="utilita.javadoc.dir" value="C:\Users\simon\Desktop\Gare\Gare podistiche\utilita\dist\javadoc" />
     <property name="java.vendor.version" value="18.9" />
@@ -56,8 +60,8 @@
     <property name="build.dir" value="C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\build\classes" />
     <property name="jna.loaded" value="true" />
     <property name="java.io.tmpdir" value="C:\Users\simon\AppData\Local\Temp\" />
-    <property name="ant.file.type.framework-hibernate4-template-build" value="file" />
     <property name="java.version" value="11.0.2" />
+    <property name="ant.file.type.framework-hibernate4-template-build" value="file" />
     <property name="netbeans.autoupdate.variant" value="" />
     <property name="ant.file.framework-hibernate4-template-build" value="C:\Users\simon\Desktop\Gare\Gare podistiche\framework-hibernate4-template-build.xml" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
@@ -69,6 +73,7 @@
     <property name="driver.name" value="postgresql-42.2.9.jar" />
     <property name="nb.native.filechooser" value="false" />
     <property name="pool.name" value="c3p0-0.9.1.1.jar" />
+    <property name="jboss.i18n.generate-proxies" value="true" />
     <property name="ant.version" value="Apache Ant(TM) version 1.10.4 compiled on June 19 2018" />
     <property name="test.data.dir" value="C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\test\dati" />
     <property name="java.library.path" value="C:\jdk-11.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\MATLAB\R2018a\bin;C:\ffmpeg;C:\Users\simon\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\simon\AppData\Local\Programs\Python\Python37-32\;C:\Users\simon\AppData\Local\Microsoft\WindowsApps;C:\jdk-11.0.2\bin;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\texlive\2019\bin\win32;;." />
@@ -82,9 +87,9 @@
     <property name="netbeans.dynamic.classpath" value="C:\Program Files\NetBeans-11.1\netbeans\platform\core\asm-all-5.0.1.jar;C:\Program Files\NetBeans-11.1\netbeans\platform\core\core-base.jar;C:\Program Files\NetBeans-11.1\netbeans\platform\core\core.jar;C:\Program Files\NetBeans-11.1\netbeans\platform\core\org-netbeans-libs-asm.jar;C:\Program Files\NetBeans-11.1\netbeans\platform\core\org-openide-filesystems-compat8.jar;C:\Program Files\NetBeans-11.1\netbeans\platform\core\org-openide-filesystems.jar;C:\Program Files\NetBeans-11.1\netbeans\nb\core\org-netbeans-upgrader.jar;C:\Program Files\NetBeans-11.1\netbeans\nb\core\locale\core_nb.jar" />
     <property name="netbeans.autoupdate.country" value="IT" />
     <property name="utilita.src.dir" value="C:\Users\simon\Desktop\Gare\Gare podistiche\utilita\src" />
-    <property name="test.src.dir" value="C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\test" />
-    <property name="java.class.path" value="c:\lib\postgresql-42.2.9.jar;c:\lib\c3p0-0.9.1.1.jar;c:\lib\hibernate-4.1\antlr-2.7.7.jar;c:\lib\hibernate-4.1\dom4j-1.6.1.jar;c:\lib\hibernate-4.1\hibernate-c3p0-4.1.7.Final.jar;c:\lib\hibernate-4.1\hibernate-commons-annotations-4.0.1.Final.jar;c:\lib\hibernate-4.1\hibernate-core-4.1.7.Final.jar;c:\lib\hibernate-4.1\hibernate-jpa-2.0-api-1.0.1.Final.jar;c:\lib\hibernate-4.1\javassist-3.15.0-GA.jar;c:\lib\hibernate-4.1\jboss-logging-3.1.0.GA.jar;c:\lib\hibernate-4.1\jboss-transaction-api_1.1_spec-1.0.0.Final.jar;c:\lib\hibernate-annotations-4.1\hibernate-commons-annotations-4.0.1.Final.jar;c:\lib\slf4j-api-1.7.7.jar;C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\build\classes;c:\lib\logback-classic-1.1.2.jar;c:\lib\logback-core-1.1.2.jar;C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\build\test\classes;c:\lib\junit.jar;C:\Program Files\NetBeans-11.1\netbeans\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans-11.1\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-11.1\netbeans\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans-11.1\netbeans\extide\ant\lib\ant-junit4.jar" />
     <property name="sun.awt.enableExtraMouseButtons" value="true" />
+    <property name="java.class.path" value="c:\lib\postgresql-42.2.9.jar;c:\lib\c3p0-0.9.1.1.jar;c:\lib\hibernate-4.1\antlr-2.7.7.jar;c:\lib\hibernate-4.1\dom4j-1.6.1.jar;c:\lib\hibernate-4.1\hibernate-c3p0-4.1.7.Final.jar;c:\lib\hibernate-4.1\hibernate-commons-annotations-4.0.1.Final.jar;c:\lib\hibernate-4.1\hibernate-core-4.1.7.Final.jar;c:\lib\hibernate-4.1\hibernate-jpa-2.0-api-1.0.1.Final.jar;c:\lib\hibernate-4.1\javassist-3.15.0-GA.jar;c:\lib\hibernate-4.1\jboss-logging-3.1.0.GA.jar;c:\lib\hibernate-4.1\jboss-transaction-api_1.1_spec-1.0.0.Final.jar;c:\lib\hibernate-annotations-4.1\hibernate-commons-annotations-4.0.1.Final.jar;c:\lib\slf4j-api-1.7.7.jar;C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\build\classes;c:\lib\logback-classic-1.1.2.jar;c:\lib\logback-core-1.1.2.jar;C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\build\test\classes;c:\lib\junit.jar;C:\Program Files\NetBeans-11.1\netbeans\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans-11.1\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-11.1\netbeans\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans-11.1\netbeans\extide\ant\lib\ant-junit4.jar" />
+    <property name="test.src.dir" value="C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\test" />
     <property name="org.openide.major.version" value="IDE/1" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="test.build.dir" value="C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\build\test\classes" />
@@ -95,8 +100,8 @@
     <property name="org.openide.specification.version" value="6.2" />
     <property name="user.timezone" value="" />
     <property name="java.vm.specification.version" value="11" />
-    <property name="os.name" value="Windows 10" />
     <property name="build.sysclasspath" value="ignore" />
+    <property name="os.name" value="Windows 10" />
     <property name="apple.laf.useScreenMenuBar" value="true" />
     <property name="user.country" value="IT" />
     <property name="misc.dir" value="C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\varie" />
@@ -114,8 +119,8 @@
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
     <property name="ant.file.dbms-template-build" value="C:\Users\simon\Desktop\Gare\Gare podistiche\dbms-template-build.xml" />
     <property name="apple.awt.graphics.UseQuartz" value="true" />
-    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
     <property name="ant.file.type.swing-hibernate4-template-build" value="file" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
     <property name="plugin.manager.check.updates" value="false" />
     <property name="netbeans.autoupdate.language" value="it" />
     <property name="test.report.dir" value="C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\build\test\report" />
@@ -126,19 +131,19 @@
     <property name="os.version" value="10.0" />
     <property name="netbeans.home" value="C:\Program Files\NetBeans-11.1\netbeans\platform" />
     <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
-    <property name="ant.project.invoked-targets" value="test-modello" />
+    <property name="ant.project.invoked-targets" value="schemaexport" />
     <property name="ant.file.gestoregare" value="C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\build.xml" />
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
     <property name="hibernate-annotations.ver" value="4.1" />
     <property name="ant.core.lib" value="C:\Program Files\NetBeans-11.1\netbeans\extide\ant\lib\ant.jar" />
-    <property name="ant.file.type.swing-template-build" value="file" />
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/" />
+    <property name="ant.file.type.swing-template-build" value="file" />
     <property name="user.dir" value="C:\Program Files\NetBeans-11.1" />
     <property name="os.arch" value="amd64" />
     <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
     <property name="java.vm.info" value="mixed mode" />
-    <property name="java.vm.version" value="11.0.2+9" />
     <property name="conf.dir.present" value="true" />
+    <property name="java.vm.version" value="11.0.2+9" />
     <property name="resources.dir.present" value="true" />
     <property name="sun.awt.datatransfer.timeout" value="1000" />
     <property name="ant.file.swing-hibernate4-template-build" value="C:\Users\simon\Desktop\Gare\Gare podistiche\swing-hibernate4-template-build.xml" />

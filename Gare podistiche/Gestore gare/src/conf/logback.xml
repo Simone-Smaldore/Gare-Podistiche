@@ -12,9 +12,9 @@
       <pattern>%m%n</pattern>
     </encoder>
   </appender>
-  <!--
-  <logger name="it.unibas.progetto.modello" level="debug"/>  
-	-->
+
+  <logger name="it.unibas.gestoreGare.vista" level="debug"/>  
+
   <root level="WARN">
     <appender-ref ref="stdout"/>
     <!--<appender-ref ref="file"/>-->
