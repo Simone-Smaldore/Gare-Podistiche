@@ -17,7 +17,7 @@ public class DAOGaraHibernate extends DAOGenericoHibernate<Gara> implements IDAO
     @Override
     public List<Gara> getGaraPerMassimoChilometraggio(double km) throws DAOException {
         Criteria criterio = getSession().createCriteria(Gara.class);
-        criterio.add(Restrictions.lt("km", km));
+        criterio.add(Restrictions.le("km", km));
         criterio.addOrder(Order.asc("km"));
         return criterio.list();
     }

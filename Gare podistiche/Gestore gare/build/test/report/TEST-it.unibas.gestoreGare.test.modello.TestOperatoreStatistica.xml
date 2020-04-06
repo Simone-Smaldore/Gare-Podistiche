@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="DESKTOP-7T7IURO" name="it.unibas.gestoreGare.test.persistenza.TestDAOGaraHibernate" skipped="0" tests="1" time="1.028" timestamp="2020-04-06T08:13:14">
+<testsuite errors="0" failures="0" hostname="DESKTOP-7T7IURO" name="it.unibas.gestoreGare.test.modello.TestOperatoreStatistica" skipped="0" tests="1" time="0.111" timestamp="2020-04-06T08:10:40">
   <properties>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="java.specification.version" value="11" />
@@ -16,7 +16,7 @@
     <property name="test.data.dir.present" value="true" />
     <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
     <property name="sun.boot.library.path" value="C:\jdk-11.0.2\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner it.unibas.gestoreGare.test.persistenza.TestDAOGaraHibernate skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\build\test\report\TEST-it.unibas.gestoreGare.test.persistenza.TestDAOGaraHibernate.xml crashfile=C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\junitvmwatcher5897104555209887918.properties propsfile=C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\junit16061378862228092553.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner it.unibas.gestoreGare.test.modello.TestOperatoreStatistica skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\build\test\report\TEST-it.unibas.gestoreGare.test.modello.TestOperatoreStatistica.xml crashfile=C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\junitvmwatcher739092254621198734.properties propsfile=C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\junit957244366539875661.properties" />
     <property name="netbeans.autoupdate.version" value="1.23" />
     <property name="jdk.debug" value="release" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
@@ -126,7 +126,7 @@
     <property name="os.version" value="10.0" />
     <property name="netbeans.home" value="C:\Program Files\NetBeans-11.1\netbeans\platform" />
     <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
-    <property name="ant.project.invoked-targets" value="test-persistenza" />
+    <property name="ant.project.invoked-targets" value="test-modello" />
     <property name="ant.file.gestoregare" value="C:\Users\simon\Desktop\Gare\Gare podistiche\Gestore gare\build.xml" />
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
     <property name="hibernate-annotations.ver" value="4.1" />
@@ -147,7 +147,7 @@
     <property name="org.netbeans.io.suspend" value="0" />
     <property name="ant.project.default-target" value="build" />
   </properties>
-  <testcase classname="it.unibas.gestoreGare.test.persistenza.TestDAOGaraHibernate" name="testRicercaPerkm" time="1.015" />
+  <testcase classname="it.unibas.gestoreGare.test.modello.TestOperatoreStatistica" name="testOperatore" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
